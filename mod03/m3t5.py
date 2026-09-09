@@ -11,4 +11,4 @@ yhteisgrammat = luoti_grammoina + naula_grammoina + leiviskä_grammoina
 kilogrammat = int(yhteisgrammat // 1000)
 grammat = yhteisgrammat % 1000
 
-print("\nMassa on nykymittojen mukaan:") 
+print("\nMassa on nykymittojen mukaan: ") 
