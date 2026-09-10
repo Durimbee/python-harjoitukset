@@ -25,6 +25,7 @@ print("Pelaajan ikä:", ikä)
 #Ikäraja ja päävalikko
 if ikä < 12:
     print("Olet liian nuori pelaamaan.")
+
 else: 
     print("Tervetuloa pelaamaan", nimi + "!")
     while True:

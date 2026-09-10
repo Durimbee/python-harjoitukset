@@ -1,5 +1,0 @@
-ikä = int(input("Anna ikä:"))
-if 15 <= ikä < 18:
-    paino = float(input("Anna paino (kg)"))
-if (paino >= 55 and ikä >= 15 ) or (ikä >= 18):
-    print("Lääkkeen käyttö on sallittua.")
