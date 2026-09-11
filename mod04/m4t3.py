@@ -8,8 +8,7 @@ if sukupuoli == "mies":
         print("Hemoglobiini on korkea")
     else:
         print("Hemoglobiini on normaali")
-
-if sukupuoli == "nainen":
+elif sukupuoli == "nainen":
     if hemoglobiini < 117:
         print("Hemoglobiini on alhainen")
     elif hemoglobiini > 175:
@@ -17,3 +16,5 @@ if sukupuoli == "nainen":
     else:
         print("Hemoglobiini on normaali")
 
+else:
+    print("Sukupuolia on vain 2: mies tai nainen")
